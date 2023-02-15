@@ -99,3 +99,24 @@ body {
 .container-descricao {
     padding: 2em;
 }
+
+.quinta-secao-lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.quinta-secao {
+    text-align: center;
+}
+
+.quinta-secao-titulo {
+    font-size: 36px;   
+    color: var(--branco);
+}
+
+.lista-item {
+    font-size: 28;
+    color: var(--branco);
+}
