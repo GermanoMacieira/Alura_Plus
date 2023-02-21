@@ -1,10 +1,11 @@
 
 :root {
     --branco: #FFFFFF;
-    --botao-azul: #167BF7;
+    --azul: #167BF7;
     --cinza: #C0C0C0;
     --cor-de-fundo: #00030C;
     --fonte-principal: 'Inter';
+    --verde: #00ff0d;
 }
 
 body {
@@ -39,7 +40,7 @@ body {
 }
 
 .container-botao {
-    background-color: var(--botao-azul);
+    background-color: var(--azul);
     border-radius: 5px;
     color: var(--branco);
     padding: 1em;
@@ -137,7 +138,7 @@ body {
     list-style-type: none;
 }
 
-.lista-link{
+.lista-link {
     color: var(--branco);
     padding: 0.5em;
     text-decoration: none;
@@ -151,4 +152,12 @@ body {
     font-size: 14;
     color: var(--cinza);
     padding: 1em;
+}
+
+.lista-link a:hover {
+    color: var(--verde);
+}
+
+.lista-link a:active {
+    color: var(--azul);
 }
