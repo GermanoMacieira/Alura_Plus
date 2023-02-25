@@ -3,13 +3,13 @@
     --branco: #FFFFFF;
     --azul: #167BF7;
     --cinza: #C0C0C0;
-    --cor-de-fundo: #00030C;
+    --preto: #00030C;
     --fonte-principal: 'Inter';
     --verde: #00ff0d;
 }
 
 body {
-    background-color: var(--cor-de-fundo);
+    background-color: var(--preto);
     color: var(--branco);
     font-family: var(--fonte-principal);
     font-size: 16px;
@@ -154,10 +154,7 @@ body {
     padding: 1em;
 }
 
-.lista-link a:hover {
-    color: var(--verde);
-}
-
-.lista-link a:active {
-    color: var(--azul);
+.rodape-lista a:hover {
+    color: var(--preto);
+    background-color: var(--branco);
 }
