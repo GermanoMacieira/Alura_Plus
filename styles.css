@@ -144,6 +144,17 @@ body {
     text-decoration: none;
 }
 
+/* mouse over link */
+.rodape-lista a:hover {
+    color: var(--preto);
+    background-color: var(--branco);
+}
+
+/* selected link */
+.rodape-lista a:active {
+    color: blue;
+  } 
+
 .rodape-textos{
     padding: 1em 5em 5em 5em;
 }
@@ -152,9 +163,4 @@ body {
     font-size: 14;
     color: var(--cinza);
     padding: 1em;
-}
-
-.rodape-lista a:hover {
-    color: var(--preto);
-    background-color: var(--branco);
 }
