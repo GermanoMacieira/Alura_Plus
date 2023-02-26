@@ -2,6 +2,7 @@
 :root {
     --branco: #FFFFFF;
     --azul: #167BF7;
+    --azul-escuro: #0a4a97;
     --cinza: #C0C0C0;
     --preto: #00030C;
     --fonte-principal: 'Inter';
@@ -40,13 +41,27 @@ body {
 }
 
 .container-botao {
-    background-color: var(--azul);
+    background-color: var(--azul-escuro);
     border-radius: 5px;
     color: var(--branco);
     padding: 1em;
     display: block;
     text-decoration: none;
     margin-bottom: 1em;
+}
+
+/* mouse over link */
+.container-caixa a:hover {
+    color: var(--branco);
+    font-weight: 300;
+    background-color: var(--azul);
+}
+
+/* mouse over link */
+.container-descricao a:hover {
+    color: var(--branco);
+    font-weight: 300;
+    background-color: var(--azul);
 }
 
 .botao-secundario {
