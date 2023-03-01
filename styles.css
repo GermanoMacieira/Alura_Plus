@@ -48,6 +48,7 @@ body {
     display: block;
     text-decoration: none;
     margin-bottom: 1em;
+    cursor: pointer;
 }
 
 /* mouse over link */
