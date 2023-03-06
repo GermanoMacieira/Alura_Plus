@@ -78,7 +78,7 @@ body {
 }
 
 .container-titulo {
-    font-size: 28px;
+    font-size: 36px;
     font-weight: 700;
 }
 
@@ -181,7 +181,7 @@ body {
     padding: 1em;
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 768px) {
     .container {
         display: block;
         background-image: none;
@@ -192,6 +192,18 @@ body {
     }
 
     .container-caixa {
-        margin: 2em 2em;
+        margin: 3em 3em;
     }
+
+
+
+    .secundario {
+        margin: 0;
+        text-align: center;
+    }
+
+    .secundario-imagem {
+        width: 50vw;
+    }
+
 }
